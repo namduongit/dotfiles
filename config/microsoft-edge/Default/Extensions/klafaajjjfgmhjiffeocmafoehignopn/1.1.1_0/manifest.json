@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon.png",
+         "16": "icon.png",
+         "48": "icon.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "toggle-extension": {
+         "description": "__MSG_toggleExtension__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Y"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "file://*" ],
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzMGFOcCAHj6D2/jLu3LLOMzbLqiFspIM/NQHy6fVBEFWpvVTUvC7n2Mj+RpOWyOzH8W4TykWEgMDjmBTWsS7qA75cudkmNTzyhjcqOK5pMz26A69QPyplqFltKqvIeTa1mtpad+CGH6ObUs7VZUdxHMoN0UiIJjPbLiXgY8dlCkF2S9XLxQFedkSxfoa1UmfvNSx5w6V8YXWo0W68pfO6pmXyoYUV2XkSNpJS9gPkQ+cOhPiZzeLsacRMHLQ5xfahi4fKHo/sMz8FsVyyddwGkU/3M68P6I5r7tXljeDdbBdogXoJWLsCoK0hB+0M+WS2CDip5pitpxT1/tU+kl4AwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

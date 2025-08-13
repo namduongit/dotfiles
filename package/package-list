@@ -1,0 +1,63 @@
+# ===== Base System =====
+base
+base-devel
+linux
+linux-firmware
+linux-headers 
+sudo
+zsh
+
+# ===== Bootloader =====
+grub
+os-prober
+efibootmgr
+
+# ===== Environment Graphic =====
+xorg-server
+xorg-xinit
+xorg-xsetroot
+mesa-utils
+libx11
+libxft
+libxinerama
+
+# ===== Input Method =====
+fcitx5
+fcitx5-configtool
+fcitx5-qt
+fcitx5-gtk
+fcitx5-unikey
+
+# ===== Application & Lauch =====
+alacritty
+feh
+fastfetch
+git
+neovim
+nvm
+rofi
+signal-desktop
+visual-studio-code-bin
+microsoft-edge-stable-bin
+
+# ===== Audio =====
+pipewire
+pipewire-pulse
+wireplumber
+rtkit
+
+# ===== Fonts =====
+ttf-jetbrains-mono-nerd
+
+# ===== Extract & ... =====
+unrar
+unzip
+zip
+
+# ===== Battery & Internet =====
+networkmanager
+upower
+
+# ===== AUR Helper =====
+yay
+yay-debug

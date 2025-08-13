@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "Highlights margins and padding for all HTML elements in any webpage."
+   },
+   "extensionName": {
+      "message": "Show All Padding & Margins"
+   },
+   "toggleExtension": {
+      "message": "Toggle the extension"
+   }
+}

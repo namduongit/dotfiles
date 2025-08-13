@@ -1,0 +1,6 @@
+2025-08-12 10:21:47.585 [info] Getting Manifest... christian-kohler.path-intellisense
+2025-08-12 10:21:47.658 [info] Installing extension: christian-kohler.path-intellisense {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/namduongit/.vscode/extensions/extensions.json","path":"/home/namduongit/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.103.0","date":"2025-08-06T21:40:10.271Z"}}
+2025-08-12 10:21:48.770 [info] Extension signature verification result for christian-kohler.path-intellisense: Success. Internal Code: 0. Executed: true. Duration: 565ms.
+2025-08-12 10:21:48.800 [info] Extracted extension to file:///home/namduongit/.vscode/extensions/christian-kohler.path-intellisense-2.10.0: christian-kohler.path-intellisense
+2025-08-12 10:21:48.804 [info] Renamed to /home/namduongit/.vscode/extensions/christian-kohler.path-intellisense-2.10.0
+2025-08-12 10:21:48.811 [info] Extension installed successfully: christian-kohler.path-intellisense vscode-userdata:/home/namduongit/.vscode/extensions/extensions.json

@@ -1,0 +1,35 @@
+2025-08-11 19:19:58.723 [info] [main] Log level: Info
+2025-08-11 19:19:58.723 [info] [main] Validating found git in: "git"
+2025-08-11 19:19:58.723 [info] [main] Using git "2.50.1" from "git"
+2025-08-11 19:19:58.723 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-11 19:19:58.723 [info] > git rev-parse --show-toplevel [17ms]
+2025-08-11 19:19:58.723 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-08-11 19:19:58.723 [info] [Model][openRepository] Opened repository (path): /home/namduongit/builds/dwm
+2025-08-11 19:19:58.723 [info] [Model][openRepository] Opened repository (real path): /home/namduongit/builds/dwm
+2025-08-11 19:19:58.723 [info] [Model][openRepository] Opened repository (kind): repository
+2025-08-11 19:19:58.723 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-11 19:19:58.723 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-11 19:19:58.723 [info] > git config --get commit.template [6ms]
+2025-08-11 19:19:58.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2025-08-11 19:19:58.723 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 19:19:58.769 [info] > git rev-parse refs/remotes/origin/master [45ms]
+2025-08-11 19:19:58.800 [info] > git status -z -uall [29ms]
+2025-08-11 19:19:58.800 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-08-11 19:19:58.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-08-11 19:19:58.825 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-08-11 19:19:58.829 [info] > git config --get commit.template [7ms]
+2025-08-11 19:19:58.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-08-11 19:19:58.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-08-11 19:19:58.840 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 19:19:58.840 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-08-11 19:19:58.844 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-08-11 19:19:58.853 [info] > git status -z -uall [5ms]
+2025-08-11 19:19:58.853 [info] > git diff --name-status -z --diff-filter=ADMR 693d94d350c806e77677c35958e18590c26e19d2...refs/remotes/origin/master [9ms]
+2025-08-11 19:19:58.854 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 19:19:59.223 [info] > git check-ignore -v -z --stdin [1ms]
+2025-08-11 19:21:13.070 [info] > git config --get commit.template [3ms]
+2025-08-11 19:21:13.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 19:21:13.072 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 19:21:13.073 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-08-11 19:21:13.077 [info] > git status -z -uall [3ms]
+2025-08-11 19:21:13.078 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]

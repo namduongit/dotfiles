@@ -1,0 +1,538 @@
+nvim .zshrc
+clear
+ls -la
+rm -rf .bash_history .bash_logout .bash_profile
+clear
+mkdir .config
+ls
+ls -la
+cd .config
+ls
+mkdir alacritty
+cd alacritty
+cd ..
+mkdir zsh
+ls
+cd zsh
+mkdir plugins
+cd plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+ls
+cd
+ls
+nvim .zshrc
+source .zshrc
+clear
+source .zshrc
+nvim .zshrc
+source .zshrc
+ls
+cd builds
+ls
+cd 
+clear
+ls -la
+nvim .zshrc
+source .zshrc
+sudo pacman -S firefox
+firefox
+ls
+cd builds
+ls
+git clone https://aur.archlinux.org/yay.git\
+    cd yay
+ls
+makepkg -si
+ls
+cd ..
+    yay -S visual-studio-code-bin
+poweroff
+startx
+firefox 
+nmtui
+nmtui
+ping google.com
+nmtui
+ping google.com
+nmtui
+echo $SHELL
+clear
+nmtui
+reboot
+nmtui
+firefox
+exit
+ls
+cd builds
+ls
+cd dwm
+code .
+exit
+firefox
+exit
+startx
+firefox
+firefox
+ls
+cd builds
+ls
+git clone https://github.com/LukeSmithxyz/dwmblocks.git
+ls
+ls
+cd ..
+ls
+ls
+cd builds
+ls
+git clone https://github.com/namduongit/dotfiles
+cd dotfiles
+ls
+cd .local
+ls
+ls
+mkdir -p ~/.local/
+cp dwmbar ~/.local
+cp -r dwmbar ~/.local
+pacman -S rofi
+sudo pacman -S rofi
+ls
+cd ..
+cd ..
+cd dotfiles/.config
+ls
+mkdir -p ~/.config
+cp -r rofi ~/.config
+clear
+cd 
+ls -la
+ls
+cat .zshrc
+cd .config
+ls
+cd zsh
+ls
+cd cache
+ls
+ls
+cd cache
+cat cache
+poweroff
+ls
+patch < patches/dwm-attachaside-6.4.diff
+sudo make clean install
+sudo pacman -S rofi
+patch < patches/dwm-status2d-6.3.diff
+sudo make clean install
+patch < patches/dwm-statuscmd-20210405-67d76bd.diff
+sudo make clean install
+patch < patches/dwm-uselessgap-6.2.diff
+sudo make clean install
+clear
+sudo make clean install
+clear
+sudo make clean install
+sudo make clean install
+clear
+sudo make clean install
+code 
+exit
+sudo make clean install
+sudo pacman -S nvidia nvidia-utils nvidia-settings nvidia-prime libva-nvidia-driver xf86-video-intel mesa mesa-utils intel-driver
+sudo pacman -Sy nvidia nvidia-utils nvidia-settings nvidia-prime libva-nvidia-driver xf86-video-intel mesa mesa-utils intel-driver
+sudo pacman -Sy nvidia nvidia-utils nvidia-settings nvidia-prime libva-nvidia-driver xf86-video-intel mesa mesa-utils intel-media-driver
+nvim builds/dwm/config.h
+sudo make clean install
+clear
+cd builds/dwm
+sudo make clean install
+startx
+startx
+clear
+startx
+nvidia-smi
+clear
+reboot
+nvidia-smi
+exit
+exit
+ls -la
+cd .config
+ls
+cd ..
+cd .local
+ls
+mkdir bin
+mv dwmbar bin
+cd bin
+ls
+clear
+ls
+cd dwmbar
+ls
+ls -la
+chmod +x dwm* sb_*
+ls -la
+clear
+ls
+./dwmbar
+exit
+ls
+cd .local/bin/dwmbar
+ls
+./dwmbar
+pwd
+cd
+nvim .xinitrc
+ls
+cd .local/bin/dwmbar
+ls
+cat dwmsetbar
+nvim .xinitrc
+clear
+exit
+nvim /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo nvim /etc/X11/xorg.conf.d/30-touchpad.conf
+clear
+ls
+cd builds
+;s
+ls
+   yay -S microsoft-edge-stable-bin
+ls -la
+cd
+ls -la
+sudo pacman -Rns firefox
+ls -la
+rm -rf .mozilla
+clear
+exit
+startx
+clear
+startx
+cd builds/dwm
+nvim config.h
+clear
+ls
+reboot
+sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-unikey
+clear
+ls
+cd builds
+ls
+cd ..
+cd .local
+cd bin
+ls
+cd dwmbar
+clear
+ls
+cat dwmbar
+clear
+cat dwmsetbar
+./dwmbarb
+./dwmbar
+ls
+sudo pacman -S xorg-xsetroot\
+
+sudo pacman -S pipewire pipewire-pulse wireplumber\
+
+./dwmbar
+systemctl --user enable --now pipewire pipewire-pluse wireplumber
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+./dwmbar
+exit
+git reset --hard
+ls
+cd ..
+ls
+mv dwm/patches .
+cd builds
+ls
+rm -rf dwm
+ls
+git clone https://git.suckless.org/dwm
+mv patches dwm
+cd dwm
+sudo make clean install
+code .
+exit
+ls
+nvim .xinitrc
+clear
+exit
+clear
+ls
+cd dwm
+patch < patches/dwm-status2d-6.3.diff
+sudo make clean install
+sudo pacman -S unzip
+ls
+ls -la
+sudo chown $USER:$USER config.h
+sudo make clean install
+ls
+cd .xinitrc
+nvim .xinitrc
+sudo pacman -S unzip zip unrar gzip tar
+ls
+cd Downloads
+ls
+unzip 'Segoe UI Font Family.zip'
+ls
+cd segoe-ui
+ls
+cd
+ls
+mkdir .fonts
+cd Downloads
+cd segoe-ui
+ls
+mv *.ttf ~/.fonts
+ls
+cd .
+ls
+cd ..
+ls
+cp 0xProtoNerdFont-Regular.ttf ~/.fonts
+ls
+cd
+cd .fonts
+ls
+fc-list
+fc-list | grep 0x
+cd
+cd .local
+cd bin
+ls
+cd dwmbar
+exit
+ls -la
+nvim .zprofile
+cd builds/dwm
+nvim config.h
+exit
+ls
+cd builds
+ls
+git clone https://github.com/namduongit/linux-note.git
+ls
+cd linux-note
+ls
+cd .vscode
+ls
+cat settings.json
+sudo make clean install
+sudo make clean install
+exit
+exit
+sudo make clean install
+cat namduong.log
+nvim sudo nvim /usr/share/X11/xkb/symbols/inet
+sudo pacman -S rtkit\
+
+sudo systemctl enable --now rtkit-daemon\
+
+sudo pacman -S nvidia nvidia-utils\
+
+cd /usr/share/X11
+ls
+cd xkb
+ls
+cd symbols
+cd i
+ls
+nvim inet
+cd 
+nvim .xinitrc
+clear
+cd 
+cd .config
+ls
+cd zsh
+ls
+nvim .zshrc
+clear
+source .zshrc
+source .zshrc > namduong.it 2>&1
+cat namduong.it
+nvim
+cat .zshrc
+cat namduong.log
+clear
+exit
+cd .config/zsh
+ls
+cd plugins
+ls
+ls -la
+cd 
+cat .zshrc
+nvim .zshrc
+source .zshrc
+exit
+exit
+cd .config
+ls
+cd alacritty
+ls
+nvim alacritty.toml
+clear
+exit
+ls
+nvim .config/alacritty/alacritty.toml
+exit
+nvim .config/alacritty/alacritty.toml
+ls
+cd builds
+cd ..
+ls -la
+cd builds/dwm
+exit
+nvim .zshrc
+sudo pacman -S xrandr
+ls -la
+rm -rf namduong.*
+ls -la
+fcitx5-configtool
+fcitx5-config-qt
+fcitx5-config-qt
+fcitx5-config-qt
+exit
+clear
+cd ..
+patch < patches/dwm-uselessgap-6.2.diff
+sudo make clean install
+sudo make clean install
+patch < patches/dwm-attachaside-6.4.diff
+sudo make clean install
+clear
+sudo pacman -Rns tff-jetbrains-nerd-fonts
+sudo pacman -S feh
+ls
+cd sudo
+ls
+cd
+clear
+ls
+cd sudo
+ls
+cat sudo
+rm -rf sudo
+clear
+ls
+mkdir Pictures
+cd Pictures
+mkdir desktop
+cd desktop
+mv ~/Downloads/*.png .
+ls
+ls
+nvim .xinitrc
+clear
+nvim .xinitrc
+ls
+sudo pacman -S fastfetch
+fastfetch
+exi
+exit
+startx
+clear
+startx
+clear
+startx
+startx
+clear
+startx
+startx > namduong.log 2>&1
+clear
+ls
+rm -rf namduong.log
+startx > namduong.log 2>&1
+clear
+startx
+clear
+startx
+startx
+ls -la
+echo $HOME
+cd builds
+ls
+sudo cp /etc/X11/xorg.conf.d
+sudo cp /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo cp -r /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo cp -r /etc/X11/xorg.conf.d/30-touchpad.conf .
+cp -r ~/builds/dwm ../
+poweroff
+fcitx5
+clear
+ls
+cd .config
+ls
+mkdir X11
+ls
+cd X11
+nvim xinitrc
+ls
+cp ~/.xinitrc xinitrc
+ls
+cd 
+nvim .zprofile 
+clear
+yay -S nvm
+which nvm
+nvm --version
+clear
+nvm install 18
+nvim .zshrc
+clear
+source .zshrc
+nvm install 18
+node -v
+clear
+sudo pacman -S jdk21-openjdk
+sudo archlinux-java set java-21-openjdk
+java --version
+clear
+nvim .config/alacritty/alacritty.toml
+exit
+exit
+startx
+startx > namduong.log 2>&1
+cat namduong.log
+fcitx5
+sudo nvim /etc/modprobe.d/blacklist-nouveau.conf
+sudo mkinitcpio -P
+sudo pacman -Syu fontconfig\
+
+fc-cache -rv\
+
+sudo pacman -S upower
+sudo systemctl enable --now upower\
+
+reboot
+startx > namduong.log 2>&1
+startx
+sudo startx
+cat .xinitrc
+cd .config/X11/
+ls
+rm -rf xinitrc
+cd
+cat .zprofile
+nvim .zprofile
+cat .local/share/xorg/Xorg.0.log
+clear
+startx
+exit
+ls
+rm -rf namduong.log
+clear
+cd builds
+ls
+cd ..
+ls
+cd builds
+ls
+cd dotfiles
+ls

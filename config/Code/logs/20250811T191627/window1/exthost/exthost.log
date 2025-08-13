@@ -1,0 +1,12 @@
+2025-08-11 19:16:28.629 [info] Extension host with pid 12075 started
+2025-08-11 19:16:28.629 [info] Skipping acquiring lock for /home/namduongit/.config/Code/User/workspaceStorage/1a71650a880cbfa76e4215c4c65bd5fc.
+2025-08-11 19:16:28.886 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-11 19:16:28.910 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-11 19:16:29.204 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-11 19:16:29.256 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-11 19:16:29.315 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-11 19:16:29.346 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-08-11 19:16:29.551 [info] Eager extensions activated
+2025-08-11 19:16:29.577 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-11 19:16:29.579 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-11 19:16:29.594 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'

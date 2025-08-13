@@ -1,0 +1,32 @@
+file:///home/namduongit/builds/dotfiles/Dotfiles/install.sh {"mtime":1754919149579,"ctime":1754918649633,"size":320,"etag":"3el983onmaa","orphaned":false,"typeId":""}
+
+HOME_PATH=$HOME
+
+function createDir() {
+    mkdir -p "$HOME_PATH/.fonts"
+    mkdir -p "$HOME_PATH/.local"
+    mkdir -p "$HOME_PATH/.cache"
+    mkdir -p "$HOME_PATH/builds"
+    mkdir -p "$HOME_PATH/Pictures"
+}
+
+function moveSomeFile() {
+    cp -r "./builds/X11/30-touchpad.conf" /etc/X11/xorg.conf.d/30-touchpad.conf
+    cp -r
+
+}
+
+function installYayPackage() {
+    cd "./builds/yay" && makepkg -si && cd -
+    while IFS= read -r pkg || [[ -n "$pkg" ]]; do
+        [[ -z "$pkg" ]] && continue
+        yay -S --needed "$pkg"
+    done < "./package/yay"
+}
+
+function installPacPackage() {
+    while IFS= read -r pkg || [[ -n "$pkg" ]]; do
+        [[ -z "$pkg" ]] && continue
+        yay -S --needed "$pkg"
+    done < "./package/pac"
+}

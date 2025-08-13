@@ -1,0 +1,6 @@
+2025-08-11 19:38:52.906 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-11 19:38:52.918 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-11 19:38:52.918 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-11 19:38:53.264 [info] Started local extension host with pid 34526.
+2025-08-11 19:38:54.756 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-11 19:38:55.923 [info] [perf] Render performance baseline is 18ms

@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "किसी भी वेबपेज में सभी HTML तत्वों के पैडिंग और मार्जिन को हाइलाइट करें।"
+   },
+   "extensionName": {
+      "message": "सभी पैडिंग और मार्जिन दिखाएं"
+   },
+   "toggleExtension": {
+      "message": "एक्सटेंशन टॉगल करें"
+   }
+}

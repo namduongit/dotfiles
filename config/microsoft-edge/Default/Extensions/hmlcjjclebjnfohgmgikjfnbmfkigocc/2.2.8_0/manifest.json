@@ -1,0 +1,107 @@
+{
+   "action": {
+      "default_icon": "img/logo-48.png",
+      "default_popup": "popup.html"
+   },
+   "author": {
+      "email": "junookyo@gmail.com"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/fbclid.ts-loader-5dad15d5.js" ],
+      "matches": [ "http://*/*fbclid=*", "https://*/*fbclid=*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/anti-fb-phishing.ts-loader-7b6e3729.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": false,
+      "exclude_matches": [ "https://m.facebook.com/*", "https://touch.facebook.com/*", "https://mobile.facebook.com/*", "https://mbasic.facebook.com/*", "https://graph.facebook.com/*", "https://developers.facebook.com/*", "https://code.facebook.com/*" ],
+      "js": [ "assets/fb-timer.ts-loader-a3333380.js" ],
+      "matches": [ "https://*.facebook.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "assets/fb-middleware.ts-loader-43c5e23c.js" ],
+      "matches": [ "https://www.facebook.com/*", "https://www.messenger.com/t/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "css": [ "css/instagram.css" ],
+      "js": [  ],
+      "matches": [ "https://*.instagram.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": false,
+      "css": [ "css/medium-fix-vietnamese-font.css" ],
+      "js": [  ],
+      "matches": [ "https://*.medium.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset_1",
+         "path": "rules_1.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "matches": [ "https://j2team.dev/*", "https://j2team.org/*", "https://www.j2team.org/*", "http://localhost:3000/*" ]
+   },
+   "homepage_url": "https://j2team.org/",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "img/logo-128.png",
+      "16": "img/logo-16.png",
+      "32": "img/logo-34.png",
+      "48": "img/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqepQd+6I94dIYhNB19WS05uv3lZtW+QSVHjutYO3TGu/zrDEI3Jf8AXDdk97QwM+QQiqsTN8EXpGWFVgCno/TpQVWFhs89BRcnLtKzxCKx8P+hpuRi5wPGGtpAPhrydNdFr5necXjWvzs+xdLzHhCZ2P9EDLY6T+8it3itHcEwkfZAMjvPJq1CNVw8hDA2b8uKIGOfrHYv1LMbDQKgCw9HLRalhoeZ9kccxVrxv13QRlPUBN+6Us/aeuCe85vPyERPUiRCSnmS6a+JJYRwTqtdnHuWd6aMlDRHKonOtaanzBtZf1YaB0XI9mNdlhUl53j3YC9HGu5MynUjVgCRFSIQIDAQAB",
+   "manifest_version": 3,
+   "name": "J2TEAM Security",
+   "optional_permissions": [ "management", "bookmarks", "topSites", "tabGroups" ],
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "notifications", "contextMenus", "cookies", "storage", "unlimitedStorage", "webRequest", "alarms", "scripting", "declarativeNetRequest", "sidePanel" ],
+   "side_panel": {
+      "default_path": "sidebar.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.8",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "img/juno_okyo.png" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://www.facebook.com/*", "https://www.messenger.com/*" ],
+      "resources": [ "js/fb-ws-hook.js", "assets/chunk-6e447cd5.js", "assets/chunk-7182d1a3.js", "assets/chunk-26a483ba.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://*.instagram.com/*" ],
+      "resources": [ "css/instagram.css" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://*.medium.com/*" ],
+      "resources": [ "css/medium-fix-vietnamese-font.css" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "assets/chunk-d767bc7e.js", "assets/chunk-7ac80a40.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://*.facebook.com/*" ],
+      "resources": [ "assets/chunk-e7e43e33.js" ],
+      "use_dynamic_url": false
+   } ]
+}

@@ -1,0 +1,15 @@
+2025-08-11 19:38:53.735 [info] Extension host with pid 34526 started
+2025-08-11 19:38:53.735 [info] Skipping acquiring lock for /home/namduongit/.config/Code/User/workspaceStorage/1a71650a880cbfa76e4215c4c65bd5fc.
+2025-08-11 19:38:54.027 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-11 19:38:54.055 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-11 19:38:54.335 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-11 19:38:54.337 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-08-11 19:38:54.373 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-11 19:38:54.409 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-11 19:38:54.555 [info] Eager extensions activated
+2025-08-11 19:38:54.564 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-11 19:38:54.565 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-11 19:38:54.580 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-08-11 20:06:25.902 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-08-11 20:12:03.211 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-11 20:12:03.223 [info] Extension host with pid 34526 exiting with code 0

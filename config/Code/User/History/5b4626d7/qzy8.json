@@ -1,0 +1,16 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderWhitespace": "none",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.folding": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorSurroundingLines": 2,
+    "editor.cursorWidth": 2,
+    // Setting font
+    "editor.fontFamily": "'0xProto Nerd Font', monospace",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Theme"
+}

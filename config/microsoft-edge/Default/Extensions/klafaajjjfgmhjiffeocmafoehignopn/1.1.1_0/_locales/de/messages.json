@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "Hebt Abstände und Ränder für alle HTML-Elemente auf jeder Webseite hervor."
+   },
+   "extensionName": {
+      "message": "Alle Abstände und Ränder anzeigen"
+   },
+   "toggleExtension": {
+      "message": "Erweiterung umschalten"
+   }
+}

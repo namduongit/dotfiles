@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "Resalta márgenes y rellenos para todos los elementos HTML en cualquier página web."
+   },
+   "extensionName": {
+      "message": "Mostrar todos los márgenes y rellenos"
+   },
+   "toggleExtension": {
+      "message": "Alternar la extensión"
+   }
+}

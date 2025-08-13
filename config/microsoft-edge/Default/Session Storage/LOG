@@ -1,0 +1,21 @@
+2025/08/12-10:06:15.846 5 Reusing MANIFEST /home/namduongit/.config/microsoft-edge/Default/Session Storage/MANIFEST-000001
+2025/08/12-10:06:15.847 5 Recovering log #37
+2025/08/12-10:06:15.847 5 Reusing old log /home/namduongit/.config/microsoft-edge/Default/Session Storage/000037.log 
+2025/08/12-10:22:48.711 5 Level-0 table #40: started
+2025/08/12-10:22:48.717 5 Level-0 table #40: 424351 bytes OK
+2025/08/12-10:22:48.718 5 Delete type=0 #37
+2025/08/12-10:22:48.719 5 Compacting 4@0 + 1@1 files
+2025/08/12-10:22:48.742 5 Generated table #41@0: 307 keys, 1547539 bytes
+2025/08/12-10:22:48.742 5 Compacted 4@0 + 1@1 files => 1547539 bytes
+2025/08/12-10:22:48.743 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/12-10:22:48.743 5 Delete type=2 #28
+2025/08/12-10:22:48.743 5 Delete type=2 #34
+2025/08/12-10:22:48.743 5 Delete type=2 #30
+2025/08/12-10:22:48.743 5 Delete type=2 #36
+2025/08/12-10:22:48.743 5 Delete type=2 #40
+2025/08/12-10:24:30.248 5 Level-0 table #43: started
+2025/08/12-10:24:30.258 5 Level-0 table #43: 330261 bytes OK
+2025/08/12-10:24:30.260 5 Delete type=0 #39
+2025/08/12-10:25:36.088 5 Level-0 table #45: started
+2025/08/12-10:25:36.093 5 Level-0 table #45: 401371 bytes OK
+2025/08/12-10:25:36.096 5 Delete type=0 #42

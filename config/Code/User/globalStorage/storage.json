@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "0b3f86de9bf67cf3f252a5638d8eca32b5daba7cd6f9ec446c4397a7fc582c05",
+    "telemetry.devDeviceId": "825dde37-77e2-4ce6-9bd2-af061c2e5a24",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/namduongit/builds/dotfiles/Dotfiles"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/namduongit/builds/dwm": "__default__profile__",
+            "file:///home/namduongit/.local/bin/dwmbar": "__default__profile__",
+            "file:///home/namduongit/builds/dotfiles/Dotfiles": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#282a36",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#f8f8f2",
+            "background": "#282a36",
+            "editorBackground": "#282a36",
+            "titleBarBackground": "#21222c",
+            "activityBarBackground": "#343746",
+            "sideBarBackground": "#21222c",
+            "statusBarBackground": "#191a21",
+            "statusBarNoFolderBackground": "#191a21"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 263,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 263,
+            "auxiliaryBarWidth": 263,
+            "workspaces": {
+                "1a71650a880cbfa76e4215c4c65bd5fc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fae356e38bc98a30c1d0ee3bfcecb4f5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3699034a79ff486d2659d5eb6ec31038": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/namduongit/builds/dotfiles/Dotfiles",
+            "backupPath": "/home/namduongit/.config/Code/Backups/13ebd0898c5fd41a3963f2045fb15bf6",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 23,
+                "width": 1918,
+                "height": 1055
+            }
+        },
+        "openedWindows": []
+    }
+}

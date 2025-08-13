@@ -1,0 +1,94 @@
+2025-08-11 19:38:54.559 [info] [main] Log level: Info
+2025-08-11 19:38:54.559 [info] [main] Validating found git in: "git"
+2025-08-11 19:38:54.559 [info] [main] Using git "2.50.1" from "git"
+2025-08-11 19:38:54.559 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-11 19:38:54.559 [info] > git rev-parse --show-toplevel [10ms]
+2025-08-11 19:38:54.559 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-08-11 19:38:54.559 [info] [Model][openRepository] Opened repository (path): /home/namduongit/builds/dwm
+2025-08-11 19:38:54.559 [info] [Model][openRepository] Opened repository (real path): /home/namduongit/builds/dwm
+2025-08-11 19:38:54.559 [info] [Model][openRepository] Opened repository (kind): repository
+2025-08-11 19:38:54.559 [info] > git rev-parse --show-toplevel [9ms]
+2025-08-11 19:38:54.559 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-11 19:38:54.559 [info] > git config --get commit.template [14ms]
+2025-08-11 19:38:54.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-08-11 19:38:54.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 19:38:54.609 [info] > git rev-parse refs/remotes/origin/master [46ms]
+2025-08-11 19:38:54.640 [info] > git status -z -uall [28ms]
+2025-08-11 19:38:54.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-08-11 19:38:54.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-08-11 19:38:54.663 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-08-11 19:38:54.666 [info] > git config --get commit.template [7ms]
+2025-08-11 19:38:54.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2025-08-11 19:38:54.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-08-11 19:38:54.677 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 19:38:54.677 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-08-11 19:38:54.681 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-08-11 19:38:54.687 [info] > git status -z -uall [4ms]
+2025-08-11 19:38:54.688 [info] > git diff --name-status -z --diff-filter=ADMR 693d94d350c806e77677c35958e18590c26e19d2...refs/remotes/origin/master [8ms]
+2025-08-11 19:38:54.689 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 19:38:55.038 [info] > git check-ignore -v -z --stdin [1ms]
+2025-08-11 19:38:59.367 [info] > git check-ignore -v -z --stdin [0ms]
+2025-08-11 20:05:54.714 [info] > git check-ignore -v -z --stdin [1ms]
+2025-08-11 20:05:54.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-11 20:05:54.714 [info] > git config --get commit.template [7ms]
+2025-08-11 20:05:54.717 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:05:54.717 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-08-11 20:05:54.725 [info] > git status -z -uall [4ms]
+2025-08-11 20:05:54.726 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 20:06:18.776 [info] > git config --get commit.template [7ms]
+2025-08-11 20:06:18.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-08-11 20:06:18.783 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:06:18.785 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-08-11 20:06:18.796 [info] > git status -z -uall [6ms]
+2025-08-11 20:06:18.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-08-11 20:06:26.968 [info] > git config --get commit.template [2ms]
+2025-08-11 20:06:26.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 20:06:26.970 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:06:26.971 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-08-11 20:06:26.975 [info] > git status -z -uall [2ms]
+2025-08-11 20:06:26.976 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-08-11 20:07:08.410 [info] > git config --get commit.template [2ms]
+2025-08-11 20:07:08.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 20:07:08.413 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:07:08.413 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-08-11 20:07:08.418 [info] > git status -z -uall [3ms]
+2025-08-11 20:07:08.419 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 20:07:15.620 [info] > git config --get commit.template [5ms]
+2025-08-11 20:07:15.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-11 20:07:15.628 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:07:15.630 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-08-11 20:07:15.641 [info] > git status -z -uall [6ms]
+2025-08-11 20:07:15.644 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-11 20:10:13.724 [info] > git check-ignore -v -z --stdin [2ms]
+2025-08-11 20:10:17.789 [info] > git config --get commit.template [0ms]
+2025-08-11 20:10:17.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 20:10:17.796 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:10:17.797 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-08-11 20:10:17.804 [info] > git status -z -uall [4ms]
+2025-08-11 20:10:17.805 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 20:10:26.454 [info] > git config --get commit.template [4ms]
+2025-08-11 20:10:26.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-08-11 20:10:26.461 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:10:26.463 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-08-11 20:10:26.479 [info] > git status -z -uall [11ms]
+2025-08-11 20:10:26.479 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-08-11 20:10:26.483 [info] > git check-ignore -v -z --stdin [5ms]
+2025-08-11 20:10:36.544 [info] > git show --textconv :dwm.c [4ms]
+2025-08-11 20:10:36.545 [info] > git ls-files --stage -- dwm.c [2ms]
+2025-08-11 20:10:36.549 [info] > git cat-file -s 14438024ca4a5fa85eb2a779da4f8771f124854f [1ms]
+2025-08-11 20:10:36.680 [info] > git blame --root --incremental 693d94d350c806e77677c35958e18590c26e19d2 -- dwm.c [97ms]
+2025-08-11 20:10:49.421 [info] > git show --textconv :dwm.c [2ms]
+2025-08-11 20:10:49.422 [info] > git ls-files --stage -- dwm.c [1ms]
+2025-08-11 20:10:49.424 [info] > git cat-file -s 14438024ca4a5fa85eb2a779da4f8771f124854f [0ms]
+2025-08-11 20:11:12.166 [info] > git config --get commit.template [2ms]
+2025-08-11 20:11:12.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-08-11 20:11:12.169 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:11:12.169 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-08-11 20:11:12.174 [info] > git status -z -uall [3ms]
+2025-08-11 20:11:12.175 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-08-11 20:11:19.252 [info] > git config --get commit.template [2ms]
+2025-08-11 20:11:19.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-08-11 20:11:19.265 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/namduongit/builds/dwm/.git/refs/remotes/origin/master'
+2025-08-11 20:11:19.267 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-08-11 20:11:19.277 [info] > git status -z -uall [5ms]
+2025-08-11 20:11:19.280 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

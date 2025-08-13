@@ -1,0 +1,1 @@
+chrome.storage.sync.get({remove_fbclid:!1},r=>{if(!(!r.remove_fbclid||!window.top))try{const e=new URL(window.top.location.href);e.searchParams.has("fbclid")&&(e.searchParams.delete("fbclid"),window.top.location.replace(e))}catch{}});

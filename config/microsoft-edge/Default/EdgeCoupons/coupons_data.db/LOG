@@ -1,0 +1,6 @@
+2025/08/12-10:06:20.191 b56 Reusing MANIFEST /home/namduongit/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/08/12-10:06:20.191 b56 Recovering log #32
+2025/08/12-10:06:20.191 b56 Reusing old log /home/namduongit/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000032.log 
+2025/08/12-10:06:20.239 b55 Level-0 table #37: started
+2025/08/12-10:06:20.242 b55 Level-0 table #37: 672164 bytes OK
+2025/08/12-10:06:20.244 b55 Delete type=0 #32

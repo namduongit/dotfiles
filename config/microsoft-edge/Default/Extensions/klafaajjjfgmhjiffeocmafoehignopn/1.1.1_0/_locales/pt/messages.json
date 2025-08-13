@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "Destaca margens e preenchimentos para todos os elementos HTML em qualquer página da web."
+   },
+   "extensionName": {
+      "message": "Mostrar todas as margens e preenchimentos"
+   },
+   "toggleExtension": {
+      "message": "Alternar a extensão"
+   }
+}

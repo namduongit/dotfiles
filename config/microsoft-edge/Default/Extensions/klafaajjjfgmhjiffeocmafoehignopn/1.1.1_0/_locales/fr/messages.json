@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "Surligne les marges et espacements pour tous les éléments HTML sur n'importe quelle page Web."
+   },
+   "extensionName": {
+      "message": "Afficher toutes les marges et espacements"
+   },
+   "toggleExtension": {
+      "message": "Basculer l'extension"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "extensionDescription": {
+      "message": "突出显示任何网页中所有HTML元素的填充和边距。"
+   },
+   "extensionName": {
+      "message": "显示所有填充和边距"
+   },
+   "toggleExtension": {
+      "message": "切换扩展"
+   }
+}

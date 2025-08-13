@@ -1,0 +1,14 @@
+/**
+ * Facebook use a trick to make user can't
+ * download the images via context menu.
+ * They adding a div on top of the image
+ *
+ * We set display:none to hide the div
+ *
+ * The class name can change over time
+ * So we may need to use JS instead of CSS
+ * From JS, we can find the class name and remove the div
+ */
+._aagw {
+  display: none !important;
+}

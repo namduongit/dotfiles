@@ -1,0 +1,1 @@
+2025-08-12 10:05:45.863 [error] Failed to set sticky bit on /tmp/namduongit-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/namduongit-code-zsh'

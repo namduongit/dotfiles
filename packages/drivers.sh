@@ -16,3 +16,7 @@ libva-nvidia-driver
 
 # Nvidia optimus
 envycontrol
+
+vulkan-intel 
+lib32-vulkan-intel 
+lib32-mesa

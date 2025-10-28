@@ -6,6 +6,8 @@ yazi
 brightnessctl
 zsh
 
+vulkan-tools
+
 # Yazi - File Manager
 yazi
 

@@ -1,0 +1,6 @@
+#!/bin/bash
+# CPU usage
+cpu=$(top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4}')
+# RAM usage
+mem=$(free | awk '/Mem:/ {printf("%.1f"), $3/$2 * 100.0}')
+echo -n "CPU ${cpu}% - RAM ${mem}%"

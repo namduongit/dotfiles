@@ -1,0 +1,6 @@
+noto-fonts 
+noto-fonts-cjk 
+noto-fonts-emoji 
+noto-fonts-extra
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono

@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Name=Screenshot - Shell
+Comment=Screenshot by XFCE and Xclip
+Exec=/home/namduongit/.config/screenshot/main.sh
+Icon=/home/namduongit/.config/screenshot/icon.png
+Terminal=false
+Type=Application
+Categories=Development;IDE;

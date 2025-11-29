@@ -2,7 +2,7 @@
 # @author: namduongit
 
 YAY_AUR="https://aur.archlinux.org/yay.git"
-DWM_SUCKLESS="https://git.suckless.org/dwm"
+GIT_DWM="https://github.com/namduongit/dwm"
 
 WORK_DIR=$(pwd)
 
@@ -15,11 +15,11 @@ CONFIGS_DIR="$HOME/.config"
 
 
 function initDirectory() {
-    [ -d "$BUILDS_DIR" ] && mkdir -p "$BUILDS_DIR"
-    [ -d "$DEV_DIR" ] && mkdir -p "$DEV_DIR"
-    [ -d "$DOCS_DIR" ] && mkdir -p "$DOCS_DIR"
-    [ -d "$PICS_DIR" ] && mkdir -p "$PICS_DIR"
-    [ -d "$CONFIGS_DIR" ] && mkdir -p "$CONFIGS_DIR"
+    [ ! -d "$BUILDS_DIR" ] && mkdir -p "$BUILDS_DIR"
+    [ ! -d "$DEV_DIR" ] && mkdir -p "$DEV_DIR"
+    [ ! -d "$DOCS_DIR" ] && mkdir -p "$DOCS_DIR"
+    [ ! -d "$PICS_DIR" ] && mkdir -p "$PICS_DIR"
+    [ ! -d "$CONFIGS_DIR" ] && mkdir -p "$CONFIGS_DIR"
 }
 
 function installPackages() {
@@ -39,7 +39,7 @@ function installYayAUR() {
 }
 
 function installDwmSuckless() {
-    cd "$BUILDS_DIR" && git clone "$DWM_SUCKLESS" && cd dwm && sudo make install
+    cd "$BUILDS_DIR" && git clone "$GIT_DWM" && cd dwm && sudo make install
     cd "$WORK_DIR"
 }
 
@@ -49,6 +49,17 @@ function buildConfigs() {
     cp -r "./configs/rofi" "$CONFIGS_DIR/"
     cp -r "./configs/alacritty" "$CONFIGS_DIR/"
     cp -r "./configs/yazi" "$CONFIGS_DIR/"
+    cp -r "./configs/zsh" "$CONFIGS_DIR/"
+}
+
+function buildX11() {
+    echo -e "\nBuilding X11 config ..."
+    sudo cp ./x11/* /etc/X11/xorg.conf.d/
+}
+
+function buildZsh() {
+    echo -e "\nBuilding Zsh config ..."
+    cp ./.zshrc "$HOME/"
 }
 
 initDirectory
@@ -56,5 +67,7 @@ installPackages
 installYayAUR
 installDwmSuckless
 buildConfigs
+buildX11
+buildZsh
 echo -e "\nInstallation completed!"
-reboot
+echo "Reboot required. Run 'sudo reboot' to restart the system."

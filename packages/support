@@ -1,0 +1,31 @@
+# Keyring support (MYSQL)
+gnome-keyring
+libsecret
+
+# Compress tools
+tar
+zip
+unzip
+
+# Folder cli
+yazisudo
+
+# Browser
+firefox
+
+# Application
+alacritty
+zsh
+git
+neovim
+vim
+
+# Input method
+fcitx5
+fcitx5-configtool
+fcitx5-qt
+fcitx5-gtk
+
+# Other
+feh
+fastfetch

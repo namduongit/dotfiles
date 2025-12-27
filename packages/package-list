@@ -1,0 +1,48 @@
+# Linux Kenel
+base
+base-devel
+linux
+linux-firmware
+
+# Xorg (X.Org Server)
+xorg-server
+xorg-xinit
+xorg-xrandr 
+xorg-xsetroot
+xorg-xset 
+xorg-xinput 
+xorg-setxkbmap
+xorg-xrdb 
+
+# Boot loader
+grub
+efibootmgr
+os-prober
+
+# Brightness 
+brightnessctl
+
+# X libraries
+xf86-input-libinput
+libxft
+libnotify
+
+# Optimus (Switch iGPU, dGPU, hybird)
+envycontrol
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+pulsemixer
+pavucontrol
+rtkit
+
+# Bluetooth
+bluez
+bluez-utils
+bluez-obex
+
+# Network
+networkmanager
+network-manager-applet

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+powered=$(bluetoothctl show | awk '/Powered:/{print $2}')
+if [[ "$powered" == "yes" ]]; then
+    icon="󰥉"
+else
+    icon="󰥊"
+fi
+
+# count connected devices
+count=$(bluetoothctl devices Connected | grep -c '^Device')
+
+echo "$icon $count"

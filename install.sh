@@ -112,7 +112,7 @@ install_dwm() {
 main_dotfile
 read -r -p "Do you want to use this Script (they will be ignored)? [Y/n] " answer
 case $answer in
-    ""|[Yy]* );;cp -r "./.zshrc" "$HOME_USER/.zshrc"
+    ""|[Yy]* );;
     * ) exit 1;;
 esac
 

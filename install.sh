@@ -103,6 +103,12 @@ install_yay() {
     cd "$PWD" || exit
 }
 
+install_dwm() {
+    cd "$BUID_PATH" && git clone "$DWM_GIT" && cd dwm && sudo make clean install
+    echo "Apply DWM successful"
+    cd "$PWD" || exit
+}
+
 main_dotfile
 read -r -p "Do you want to use this Script (they will be ignored)? [Y/n] " answer
 case $answer in
@@ -117,6 +123,9 @@ echo "Install packeges from pacman"
 install_package
 install_driver
 install_support
+
+echo "Apply DWM settings"
+install_dwm
 
 echo "Install yay package manager"
 install_yay

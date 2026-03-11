@@ -1,0 +1,59 @@
+# Terminal UI
+alacritty
+networkmanager
+neovim
+
+# Application
+rofi
+# -- Thunar & Thunar plugin
+thunar
+thunar-archive-plugin
+thunar-volman
+udisks2
+file-roller
+gvfs
+
+# Tool
+# -- Zsh & Zsh plugin
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+# -- Wget
+wget
+# -- Ssh and some tools
+openssh
+# -- Docker
+docker
+docker-compose
+# -- Screenshot
+flameshot
+# -- Flatpak package manager
+flatpak
+# -- Git
+git
+
+# Other
+gnome-keyring
+jdk21-openjdk
+feh
+make
+
+# Audio & Audio application
+pavucontrol
+wireplumber
+pipewire
+pipewire-pulse
+prismlauncher
+pulsemixer
+libpulse
+
+# Bluetoot & Bluetooth application
+bluetui
+bluez
+bluez-utils
+
+# Library
+libxft
+less
+libnotify
+libsecret

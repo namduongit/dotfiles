@@ -40,25 +40,20 @@ main_dotfile() {
 
 configure_folder() {
     [ ! -d "$BUID_PATH" ] && mkdir -p "$BUID_PATH"
-    [ ! -d "$PICTURE_PATH" ] && mkdir -p "$BUID_PATH"
-    [ ! -d "$CONFIG_PATH" ] && mkdir -p "$BUID_PATH"
+    [ ! -d "$PICTURE_PATH" ] && mkdir -p "$PICTURE_PATH"
+    [ ! -d "$CONFIG_PATH" ] && mkdir -p "$CONFIG_PATH"
 }
 
-install_package() {
-    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/package-list) | xargs)
+install_core() {
+    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/core.txt) | xargs)
     echo "Script will install some packages: $valid_package"
-    read -r -p "Do you want to continue (they will be ignored)? [Y/n] " answer
-    case $answer in
-        ""|[Yy]* );;
-        * ) exit 1;;
-    esac
     sudo pacman -S --needed $valid_package
     echo "Download packages successful"
 }
 
 install_driver() {
     echo "Install intel driver and NVIDIA driver (mesa and nvidia driver)"
-    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/driver) | xargs)
+    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/driver.txt) | xargs)
     echo "Script will install some package: $valid_package"
     case $answer in
         ""|[Yy]* );;
@@ -68,19 +63,19 @@ install_driver() {
     echo "Download some driver package successful"
 }
 
-install_support() {
-    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/support) | xargs)
+install_application() {
+    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/application.txt) | xargs)
     echo "Script will install some package: $valid_package"
     case $answer in
         ""|[Yy]* );;
         * ) exit 1;;
     esac
     sudo pacman -S --needed $valid_package
-    echo "Download some support package successful"
+    echo "Download some application package successful"
 }
 
 install_font() {
-    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/fonts) | xargs)
+    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/fonts.txt) | xargs)
     echo "Script will install some package: $valid_package"
     case $answer in
         ""|[Yy]* );;
@@ -90,9 +85,20 @@ install_font() {
     echo "Download some fonts successful"
 }
 
+install_input() {
+    valid_package=$(comm -12 <(pacman -Slq | sort) <(sort ./packages/input-method.txt) | xargs)
+    echo "Script will install some package: $valid_package"
+    case $answer in
+        ""|[Yy]* );;
+        * ) exit 1;;
+    esac
+    sudo pacman -S --needed $valid_package
+    echo "Download some input package successful"
+}
+
 install_yay() {
     cd "$BUID_PATH" && git clone "$YAY_GIT" && cd yay && makepkg -si
-    valid_package=$(comm -12 <(yay -Slq | sort) <(sort ./packages/yay-pkg) | xargs)
+    valid_package=$(comm -12 <(yay -Slq | sort) <(sort ./packages/yay-pkg.txt) | xargs)
     echo "Do you want to install a package from yay?: $valid_package"
     case $answer in
         ""|[Yy]* );;
@@ -120,9 +126,11 @@ echo "Configure and create folders"
 configure_folder
 
 echo "Install packeges from pacman"
-install_package
+install_core
 install_driver
-install_support
+install_application
+install_font
+install_input
 
 echo "Apply DWM settings"
 install_dwm
@@ -134,7 +142,7 @@ sudo cp -r "./etc/X11/xorg.conf.d/30-touchpad.conf" "/etc/X11/xorg.conf.d/30-tou
 sudo cp -r "./packages/font/*" "/usr/share/fonts/"
 
 cp -r "./configs/*" "$CONFIG_PATH/"
-cp -r "./desktop" "$PICTURE_PATH/desktop-image.png"
+cp -r "./desktop/*" "$PICTURE_PATH/"
 cp -r "./.xinitrc" "$HOME_USER/.xinitrc"
 cp -r "./.zshrc" "$HOME_USER/.zshrc"
 

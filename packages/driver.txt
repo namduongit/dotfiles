@@ -1,0 +1,10 @@
+# Intel driver
+mesa
+mesa-utils
+intel-media-driver 
+intel-ucode    
+
+# NVIDIA driver
+nvidia-open
+nvidia-utils
+nvidia-settings

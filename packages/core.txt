@@ -1,0 +1,15 @@
+# Xorg (X.Org Server)
+xorg-server
+xorg-setxkbmap
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xrdb
+xorg-xset
+xorg-xsetroot
+
+# Linux kenel
+linux
+linux-firmware
+base
+base-devel

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+BAT="/sys/class/power_supply/BAT1"
+CAPACITY="$(cat $BAT/capacity 2>&1)"
+
+echo "$CAPACITY"

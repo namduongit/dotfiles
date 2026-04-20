@@ -18,6 +18,8 @@ chmod +x install.sh
 ./install.sh
 ```
 
+**Front** https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
+
 The script will automatically:
 - Install required packages
 - Build and install DWM

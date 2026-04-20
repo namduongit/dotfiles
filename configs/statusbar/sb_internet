@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ssid=$(nmcli -t -f active,ssid dev wifi | awk -F: '$1=="yes"{print $2}')
+ip=$(nmcli -t -f IP4.ADDRESS dev show | awk -F: '/IP4.ADDRESS/ {print $2; exit}')
+ip=${ip%/*}   # remove /24 etc
+
+if [ -z "$ssid" ]; then
+    echo "Disconnect - hidden"
+else
+    echo "$ssid - $ip"
+fi
